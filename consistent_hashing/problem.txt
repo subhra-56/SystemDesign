@@ -1,0 +1,10 @@
+Implement a class ConsistentHashRing that supports:
+
+- add_server(server_id: str):
+    Adds a server and its virtual nodes to the ring.
+
+- remove_server(server_id: str):
+    Removes a server and its virtual nodes.
+
+- get_server(key: str) -> str:
+    Given a key, returns which physical server should store it
