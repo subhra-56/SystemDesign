@@ -1,0 +1,23 @@
+# Python Virtual Environments
+**/venv/
+**/.venv/
+venv/
+.venv/
+
+# Bytecode & Python Cache
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & Editor Settings
+**/.vscode/
+.vscode/
+.idea/
+
+# Large Book PDFs
+*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db
